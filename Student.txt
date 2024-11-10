@@ -1,5 +1,5 @@
 601423,Ashley ,39,PRG2781
-101,John Doe,20,Engineering
+101,John Lenon,20,Engineering
 102,Jane Smith,22,Medicine
 103,Emily Johnsons,19,Business
 104,Michael Brown,21,Computer Science
@@ -7,3 +7,4 @@
 106,David Wilson,20,Mathematics
 109,Jack Mabaso,23,Computer Science
 105,Jack Maba,23,Computer Science
+577,Kate Montley,21,PRG271
