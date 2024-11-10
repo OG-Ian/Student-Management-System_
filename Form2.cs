@@ -92,20 +92,24 @@ namespace Student_Management_System_
 
         private void btnGenerateReport_Click(object sender, EventArgs e)
         {
-            var students = DataHandler.LoadStudents();
-            int totalStudents = students.Count;
-            double averageAge = totalStudents > 0 ? students.Average(s => int.Parse(s[2])) : 0;
+                var students = DataHandler.LoadStudents();
+                int totalStudents = students.Count;
+                double averageAge = totalStudents > 0 ? students.Average(s => int.Parse(s[2])) : 0;
 
-            lblTotalStudents.Text = $"Total Students: {totalStudents}";
-            lblAverageAge.Text = $"Average Age: {averageAge:F2}";
+                lblTotalStudents.Text = $"Total Students: {totalStudents}";
+                lblAverageAge.Text = $"Average Age: {averageAge:F2}";
 
-            using (StreamWriter sw = new StreamWriter("summary.txt"))
-            {
-                sw.WriteLine($"Total Students: {totalStudents}");
-                sw.WriteLine($"Average Age: {averageAge:F2}");
-            }
+                string summaryFilePath = @"C:\Users\trill\OneDrive\Documents\ACADEMIC\2024\PRG272\PROJECT PRG272 (1)\Student-Management-System_\Summary.txt";
 
-            MessageBox.Show("Summary report generated.");
+                // Write the summary information to Summary.txt
+                using (StreamWriter sw = new StreamWriter(summaryFilePath))
+                {
+                    sw.WriteLine($"Total Students: {totalStudents}");
+                    sw.WriteLine($"Average Age: {averageAge:F2}");
+                }
+
+                MessageBox.Show("Summary report generated and saved to Summary.txt.");
+
         }
 
         private void btnViewStudents_Click(object sender, EventArgs e)
@@ -115,30 +119,10 @@ namespace Student_Management_System_
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form1 mainForm = new Form1();
             mainForm.Show();
-            this.Hide();
         }
 
- 
-
-        private void btnNext_Click_1(object sender, EventArgs e)
-        {
-            if (dataGridView1.SelectedRows.Count == 0)
-            {
-                MessageBox.Show("Please select a student to update.");
-                return;
-            }
-
-            DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-            string studentID = selectedRow.Cells["StudentID"].Value.ToString();
-            string name = selectedRow.Cells["Name"].Value.ToString();
-            int age = int.Parse(selectedRow.Cells["Age"].Value.ToString());
-            string course = selectedRow.Cells["Course"].Value.ToString();
-
-            Form3 updateForm = new Form3(studentID, name, age, course);
-            updateForm.Show();
-            this.Hide();
-        }
     }
 }

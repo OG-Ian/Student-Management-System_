@@ -155,7 +155,7 @@
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(179, 38);
             this.btnBack.TabIndex = 31;
-            this.btnBack.Text = "PREVIOUS FORM";
+            this.btnBack.Text = "BACK";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 

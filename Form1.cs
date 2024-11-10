@@ -14,7 +14,7 @@ namespace Student_Management_System_
     public partial class Form1 : Form
     {
 
-        private string studentFilePath = @"C:\Users\kgoth\source\repos\Student-Management-System_\Student.txt";
+        private string studentFilePath = @"C:\Users\trill\OneDrive\Documents\ACADEMIC\2024\PRG272\PROJECT PRG272 (1)\Student-Management-System_\Student.txt";
 
         public Form1()
         {

@@ -1,1 +1,9 @@
-601423,Ashley,39,PRG2781
+601423,Ashley Ipfi,39,PRG2781
+577183,Ian L,23,CNA371
+101,John Doe,20,Engineering
+102,Jane Smith,22,Medicine
+103,Emily Johnson,19,Business
+104,Michael Brown,21,Computer Science
+105,Sarah Davis,23,Physics
+106,David Wilson,20,Mathematics
+109,Jack Mabaso,23,Computer Science

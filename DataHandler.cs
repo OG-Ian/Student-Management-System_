@@ -8,7 +8,7 @@ namespace Student_Management_System_
     public class DataHandler
     {
         // Specify the path to Student.txt file
-        private static string filePath = @"C:\Users\kgoth\source\repos\Student-Management-System_\Student.txt";
+        private static string filePath = @"C:\Users\trill\OneDrive\Documents\ACADEMIC\2024\PRG272\PROJECT PRG272 (1)\Student-Management-System_\Student.txt";
 
         public static List<string[]> LoadStudents()
         {

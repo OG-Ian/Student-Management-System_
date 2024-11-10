@@ -52,7 +52,7 @@
             this.btnGenerateReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerateReport.ForeColor = System.Drawing.SystemColors.Control;
             this.btnGenerateReport.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnGenerateReport.Location = new System.Drawing.Point(744, 195);
+            this.btnGenerateReport.Location = new System.Drawing.Point(743, 195);
             this.btnGenerateReport.Name = "btnGenerateReport";
             this.btnGenerateReport.Size = new System.Drawing.Size(233, 48);
             this.btnGenerateReport.TabIndex = 16;
@@ -66,7 +66,7 @@
             this.btnDeleteStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteStudent.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnDeleteStudent.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnDeleteStudent.Location = new System.Drawing.Point(744, 422);
+            this.btnDeleteStudent.Location = new System.Drawing.Point(750, 437);
             this.btnDeleteStudent.Name = "btnDeleteStudent";
             this.btnDeleteStudent.Size = new System.Drawing.Size(232, 48);
             this.btnDeleteStudent.TabIndex = 15;
@@ -144,7 +144,7 @@
             this.btnSearchStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchStudent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnSearchStudent.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSearchStudent.Location = new System.Drawing.Point(771, 378);
+            this.btnSearchStudent.Location = new System.Drawing.Point(777, 393);
             this.btnSearchStudent.Name = "btnSearchStudent";
             this.btnSearchStudent.Size = new System.Drawing.Size(181, 38);
             this.btnSearchStudent.TabIndex = 23;
@@ -156,7 +156,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(696, 279);
+            this.label2.Location = new System.Drawing.Point(702, 294);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(305, 18);
             this.label2.TabIndex = 26;
@@ -164,7 +164,7 @@
             // 
             // txtStudentID
             // 
-            this.txtStudentID.Location = new System.Drawing.Point(856, 331);
+            this.txtStudentID.Location = new System.Drawing.Point(862, 346);
             this.txtStudentID.Name = "txtStudentID";
             this.txtStudentID.Size = new System.Drawing.Size(146, 22);
             this.txtStudentID.TabIndex = 28;
@@ -173,7 +173,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(709, 333);
+            this.label3.Location = new System.Drawing.Point(715, 348);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 20);
             this.label3.TabIndex = 27;
@@ -195,31 +195,24 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.Red;
+            this.btnBack.BackColor = System.Drawing.Color.Turquoise;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBack.Location = new System.Drawing.Point(523, 538);
+            this.btnBack.Location = new System.Drawing.Point(453, 526);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(232, 48);
+            this.btnBack.Size = new System.Drawing.Size(227, 47);
             this.btnBack.TabIndex = 31;
-            this.btnBack.Text = "PREVIOUS FORM";
+            this.btnBack.Text = "REGISTER NEW STUDENT";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnNext
             // 
-            this.btnNext.BackColor = System.Drawing.Color.Red;
-            this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnNext.Location = new System.Drawing.Point(789, 538);
+            this.btnNext.Location = new System.Drawing.Point(0, 0);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(232, 48);
-            this.btnNext.TabIndex = 32;
-            this.btnNext.Text = "NEXT FORM";
-            this.btnNext.UseVisualStyleBackColor = false;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
+            this.btnNext.Size = new System.Drawing.Size(75, 23);
+            this.btnNext.TabIndex = 0;
             // 
             // Form2
             // 
