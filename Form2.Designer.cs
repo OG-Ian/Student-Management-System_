@@ -41,6 +41,8 @@
             this.txtStudentID = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnViewStudents = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,11 +193,41 @@
             this.btnViewStudents.UseVisualStyleBackColor = false;
             this.btnViewStudents.Click += new System.EventHandler(this.btnViewStudents_Click);
             // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.Red;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnBack.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBack.Location = new System.Drawing.Point(523, 538);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(232, 48);
+            this.btnBack.TabIndex = 31;
+            this.btnBack.Text = "PREVIOUS FORM";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.BackColor = System.Drawing.Color.Red;
+            this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNext.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNext.Location = new System.Drawing.Point(789, 538);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(232, 48);
+            this.btnNext.TabIndex = 32;
+            this.btnNext.Text = "NEXT FORM";
+            this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1033, 624);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnViewStudents);
             this.Controls.Add(this.txtStudentID);
             this.Controls.Add(this.label3);
@@ -233,5 +265,7 @@
         private System.Windows.Forms.TextBox txtStudentID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnViewStudents;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnNext;
     }
 }

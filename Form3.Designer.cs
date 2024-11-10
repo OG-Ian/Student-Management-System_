@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnUpdateStudent = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,7 +137,7 @@
             this.btnUpdateStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateStudent.ForeColor = System.Drawing.SystemColors.Control;
             this.btnUpdateStudent.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnUpdateStudent.Location = new System.Drawing.Point(712, 315);
+            this.btnUpdateStudent.Location = new System.Drawing.Point(834, 314);
             this.btnUpdateStudent.Name = "btnUpdateStudent";
             this.btnUpdateStudent.Size = new System.Drawing.Size(179, 38);
             this.btnUpdateStudent.TabIndex = 29;
@@ -144,11 +145,26 @@
             this.btnUpdateStudent.UseVisualStyleBackColor = false;
             this.btnUpdateStudent.Click += new System.EventHandler(this.btnUpdateStudent_Click);
             // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.Red;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBack.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBack.Location = new System.Drawing.Point(624, 314);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(179, 38);
+            this.btnBack.TabIndex = 31;
+            this.btnBack.Text = "PREVIOUS FORM";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 553);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnUpdateStudent);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCourse);
@@ -181,5 +197,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnUpdateStudent;
+        private System.Windows.Forms.Button btnBack;
     }
 }
